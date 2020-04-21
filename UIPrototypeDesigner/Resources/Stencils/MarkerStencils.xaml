@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:DiagramDesigner"
+                    xmlns:c="clr-namespace:DiagramDesigner.Controls">
+
+
+    <s:Toolbox x:Key="MarkerStencils" ItemSize="260,80">
+        <ItemsControl.Items>
+
+            <Border>
+                <TextBox AcceptsReturn="True" TextWrapping="Wrap"  Margin="5" 
+            BorderBrush="Black" BorderThickness="3">
+                    <TextBox.ToolTip>
+                        <StackPanel>
+                            <TextBlock>This is a mark</TextBlock>
+                            <TextBlock>Type the text in the field and transfer it to the workspace</TextBlock>
+                            <TextBlock> to the object to which you are describing.</TextBlock>
+                        </StackPanel>
+                    </TextBox.ToolTip>
+                </TextBox>
+            </Border>
+        </ItemsControl.Items>
+    </s:Toolbox>
+
+</ResourceDictionary>

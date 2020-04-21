@@ -1,0 +1,46 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:DiagramDesigner">
+
+
+    <s:Toolbox x:Key="BaseStencils" ItemSize="80,60" SnapsToDevicePixels="True"
+             ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ItemsControl.Items>
+            
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/button.png"
+            Stretch="Fill" ToolTip="Button"/>
+        
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/label.png"
+            Stretch="Fill" ToolTip="Label"/>
+            
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/combobox.png"
+            Stretch="Fill" ToolTip="Combobox"/>
+            
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/radiobutton.png"
+            Stretch="Fill" ToolTip="Radiobutton"/>
+            
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/checkbox.png"
+            Stretch="Fill" ToolTip="Checkbox"/>
+        
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/textbox.png"
+            Stretch="Fill" ToolTip="Text Box"/>
+            
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/numeric.png"
+            Stretch="Fill" ToolTip="Numecir Block"/>
+            
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/textinput.png"
+            Stretch="Fill" ToolTip="Text Input"/>
+
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/toggle.png"
+            Stretch="Fill" ToolTip="Toggle"/>
+            
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/progress.png"
+            Stretch="Fill" ToolTip="Progressbar"/>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/slider.png"
+            Stretch="Fill" ToolTip="Slider"/>
+
+
+        </ItemsControl.Items>
+  </s:Toolbox>
+</ResourceDictionary>

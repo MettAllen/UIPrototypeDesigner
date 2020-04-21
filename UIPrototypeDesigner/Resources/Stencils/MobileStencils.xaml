@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:DiagramDesigner">
+
+
+    <s:Toolbox x:Key="MobileStencils" ItemSize="60,60" SnapsToDevicePixels="True"
+             ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ItemsControl.Items>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_chrome.png"
+            Stretch="Fill"/>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_facebook.png"
+            Stretch="Fill"/>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_instagram.png"
+            Stretch="Fill"/>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_youtube.png"
+            Stretch="Fill"/>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_pintrest.png"
+            Stretch="Fill"/>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_twitter.png"
+            Stretch="Fill"/>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/about.png"
+            Stretch="Fill"/>
+
+
+        </ItemsControl.Items>
+    </s:Toolbox>
+
+</ResourceDictionary>
+
+
+
+
+
+<!--
+<Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_chrome.png"
+            Stretch="Fill"/>
+
+<Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_facebook.png"
+            Stretch="Fill"/>
+
+<Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_instagram.png"
+            Stretch="Fill"/>
+
+<Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_youtube.png"
+            Stretch="Fill"/>
+
+<Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_pintrest.png"
+            Stretch="Fill"/>
+
+<Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/mobile_twitter.png"
+            Stretch="Fill"/>
+
+<Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/about.png"
+            Stretch="Fill"/>
+    -->

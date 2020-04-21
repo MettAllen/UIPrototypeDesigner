@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:DiagramDesigner"
+                    xmlns:c="clr-namespace:DiagramDesigner.Controls">
+
+    <s:Toolbox x:Key="ShapeStencils" ItemSize="60,60">
+        <ItemsControl.Items>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Frame/tabletop_frame.png"
+            Stretch="Fill"/>
+            
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Frame/smartphone_frame.png"
+            Stretch="Fill"/>
+
+
+        </ItemsControl.Items>
+  </s:Toolbox>
+</ResourceDictionary>
