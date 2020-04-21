@@ -7,10 +7,10 @@
         <ItemsControl.Items>
 
             <Image Source="/UIPrototypeDesigner;component/Resources/Images/Frame/tabletop_frame.png"
-            Stretch="Fill"/>
+            Stretch="Fill"  ToolTip="Frame for PC App"/>
             
             <Image Source="/UIPrototypeDesigner;component/Resources/Images/Frame/smartphone_frame.png"
-            Stretch="Fill"/>
+            Stretch="Fill"  ToolTip="Frame for Mobile App"/>
 
 
         </ItemsControl.Items>
