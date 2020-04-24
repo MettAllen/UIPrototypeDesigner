@@ -374,7 +374,6 @@ namespace DiagramDesigner
 
         private void Order_Enabled(object sender, CanExecuteRoutedEventArgs e)
         {
-            //e.CanExecute = SelectionService.CurrentSelection.Count() > 0;
             e.CanExecute = true;
         }
 
@@ -498,12 +497,6 @@ namespace DiagramDesigner
 
         private void Align_Enabled(object sender, CanExecuteRoutedEventArgs e)
         {
-            //var groupedItem = from item in SelectionService.CurrentSelection.OfType<DesignerItem>()
-            //                  where item.ParentID == Guid.Empty
-            //                  select item;
-
-
-            //e.CanExecute = groupedItem.Count() > 1;
             e.CanExecute = true;
         }
 

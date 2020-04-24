@@ -25,7 +25,10 @@
         <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/textbox.png"
             Stretch="Fill" ToolTip="Text Box"/>
             
-        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/numeric.png"
+        <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/picture.png"
+            Stretch="Fill" ToolTip="Picture Box"/>
+
+            <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/numeric.png"
             Stretch="Fill" ToolTip="Numecir Block"/>
             
         <Image Source="/UIPrototypeDesigner;component/Resources/Images/Tool/textinput.png"
